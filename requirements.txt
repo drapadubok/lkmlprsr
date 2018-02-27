@@ -1,0 +1,2 @@
+parsimonious==0.8.0
+lookml-gen==0.1.9
