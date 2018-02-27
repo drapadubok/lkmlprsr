@@ -41,11 +41,10 @@ view: api_requests {
         type: number
         sql: ${total_revenue} - ${total_cost} ;;
         value_format_name: usd
-    }it
+    }
 }
 """
 
-# use block type instead of specific term
 view_syntax = r"""
     view                 = _? "view" _? ":" _? view_name _? block _?
     sql_table            = _? "sql_table_name" _? ":" _? sql_table_name _? double_semicolon? _?
